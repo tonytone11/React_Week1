@@ -4,10 +4,13 @@ class BasicInfo extends Component {
     render() {
         const { name, DoB } = this.props.person;
         return (
-            <div>
-                <p>Name: {name}</p>
-                <p>Date of Birth: {DoB}</p>
-            </div>
+            <section className='main-container'>
+                <div className='boxes'>
+                    <p>Name: {name}</p>
+                    <p>Date of Birth: {DoB}</p>
+                </div>
+            </section>
+
         );
     }
 }

@@ -10,10 +10,6 @@ html, body {
   background: black;
 }
 
-#root {
-  animation: bounce 4s infinite alternate;
-}
-
 div {
   margin: .8rem;
   background-color:blueviolet;
@@ -21,6 +17,7 @@ div {
   text-align: center;
   border-radius: .5rem;
   font-weight: 800;
+  animation: bounce 4s infinite alternate;
 }
 
 @keyframes bounce {

@@ -17,9 +17,9 @@ class App extends Component {
 
       // Hard
       people: [
-        { name: 'Anthony Montesdeoca', DoB: '08-27-01' },
-        { name: 'John Doe', DoB: '12-24-01' },
-        { name: 'Jane Doe', DoB: '04-10-01' },
+        { name: 'Anthony Montesdeoca', DoB: '08-27-01', job: 'apprentice' },
+        { name: 'John Doe', DoB: '12-24-01', job: 'police officer' },
+        { name: 'Jane Doe', DoB: '04-10-01', job: 'teacher' },
       ]
     }
   }
